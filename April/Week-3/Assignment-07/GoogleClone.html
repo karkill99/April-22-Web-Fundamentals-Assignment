@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #main {
+        text-align: center;
+        padding-top: 150px;
+      }
+      #Datalist {
+        text-align: center;
+      }
+      .Searchbtn {
+        margin-left: 950px;
+        margin-top: -30px;
+        border-radius: 10px;
+      }
+      .Searchbtn button {
+        height: 30px;
+        width: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <img
+        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      />
+    </div>
+    <br />
+    <div id="Datalist">
+      <input
+        id="data"
+        list="Data1"
+        style="
+          width: 500px;
+          height: 25px;
+          border-radius: 15px;
+          padding-left: 20px;
+          border: 2px solid rgb(59, 57, 57);
+        "
+      />
+      <datalist id="Data1">
+        <option value="Learn Python"></option>
+        <option value="Learn Data Science"></option>
+        <option value="Learn Mern Stack"></option>
+        <option value="Learn Angular"></option>
+        <option value="Learn Data Structure"></option>
+        <option value="Learn React JS"></option>
+        <option value="Learn Javascript"></option>
+      </datalist>
+    </div>
+    <div class="Searchbtn">
+      <button>Search</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+      #Main {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Main">
+      <form>
+        <h2>Student Registration Form</h2>
+        <label>Student Name</label>
+        <input type="text" placeholder="Enter Name" />
+        <br />
+        <br />
+        <label>Roll No</label>
+        <input type="Number" placeholder="Enter Roll No" />
+        <br />
+        <br />
+        <label>Email</label>
+        <input type="text" placeholder="Enter Email" />
+        <br />
+        <br />
+        <label>Mobile Number</label>
+        <input type="number" placeholder="Enter Mobile Number" />
+        <br /><br />
+        <label>DOB</label>
+        <input type="date" />
+        <br /><br />
+        <label>Gender</label>
+        <input type="radio" name="gender" />
+        <label>Male</label>
+        <input type="radio" name="gender" />
+        <label>Female</label>
+        <input type="radio" name="gender" />
+        <label>other</label>
+        <br /><br />
+        <label>Choose Subject</label>
+        <input type="text" list="datalist" />
+        <datalist id="datalist">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>Javascript</option>
+          <option>Python</option>
+          <option>Java</option>
+          <option>C</option>
+          <option>C++</option>
+          <option>c#</option>
+        </datalist>
+        <br />
+        <br />
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" />
+        <br /><br />
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Enter Password" />
+        <br /><br />
+        <input type="checkbox" /> Accept Terms And Conditions <br /><br />
+        <input type="button" value="Submit" align="center" />
+      </form>
+    </div>
+  </body>
+</html>
